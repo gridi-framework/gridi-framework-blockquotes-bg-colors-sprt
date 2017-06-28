@@ -1,8 +1,5 @@
 @each $palette-color-prefix, $palette-color-variables in get-background-colors-palette($blockquotes-background-colors-support-extra-colors-palette, $blockquotes-background-colors-support-skip-colors-palette) {
     .#{$background-colors-class-prefix}-#{$palette-color-prefix} {
-        blockquote {
-            border-color: map_get($palette-color-variables, map_get($blockquotes-background-colors-support-parser, border-color));
-            color: map_get($palette-color-variables, map_get($blockquotes-background-colors-support-parser, color));
-        }
+        @include blockquote-colors(parse-map($blockquotes-background-colors-support-parser, $palette-color-variables));
     }
 }
