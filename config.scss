@@ -5,23 +5,3 @@ $blockquotes-background-colors-support-parser: (
 
 $blockquotes-background-colors-support-extra-colors-palette: () !default;
 $blockquotes-background-colors-support-skip-colors-palette: null !default;
-
-//Support for screens (gridi-framework-bg-colors-scrns-sprt)
-//Background colors from
-$blockquotes-background-colors-support-screens-support-generate-from-classes: true !default;
-$blockquotes-background-colors-support-screens-support-from-classes-skip-screens: null !default;
-
-$blockquotes-background-colors-support-screens-support-from-extra-colors-palette: $blockquotes-background-colors-support-extra-colors-palette !default;
-$blockquotes-background-colors-support-screens-support-from-skip-colors-palette: $blockquotes-background-colors-support-skip-colors-palette !default;
-//Background colors to
-$blockquotes-background-colors-support-screens-support-generate-to-classes: true !default;
-$blockquotes-background-colors-support-screens-support-to-classes-skip-screens: null !default;
-
-$blockquotes-background-colors-support-screens-support-to-extra-colors-palette: $blockquotes-background-colors-support-extra-colors-palette !default;
-$blockquotes-background-colors-support-screens-support-to-skip-colors-palette: $blockquotes-background-colors-support-skip-colors-palette !default;
-//Background colors only
-$blockquotes-background-colors-support-screens-support-generate-only-classes: true !default;
-$blockquotes-background-colors-support-screens-support-only-classes-skip-screens: null !default;
-
-$blockquotes-background-colors-support-screens-support-only-extra-colors-palette: $blockquotes-background-colors-support-extra-colors-palette !default;
-$blockquotes-background-colors-support-screens-support-only-skip-colors-palette: $blockquotes-background-colors-support-skip-colors-palette !default;
