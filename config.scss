@@ -1,6 +1,6 @@
 $blockquotes-background-colors-support-parser: (
-    border-color: 'background-inner-color',
-    color: 'background-inner-color'
+    border-color: null,
+    border-left-color: 'background-inner-color'
 ) !default;
 
 $blockquotes-background-colors-support-extra-colors-palette: () !default;
